@@ -80,7 +80,6 @@ void TYPED(Amostra)(TYPED(complexo_t) operacao){
 	strcat(comando,"%");
 	strcat(comando, TIPO);
 	strcat(comando, "i");
-	/*" %f - %fi" */
 
     printf (comando, operacao.a, operacao.b);
     printf("\n");
