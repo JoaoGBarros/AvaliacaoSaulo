@@ -1,6 +1,6 @@
 #include <complex.h>
 #include <stdio.h>
-#include "Kramer.h"
+#include "Kerner.h"
 
 int main(){
     int grau;
