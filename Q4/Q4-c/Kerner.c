@@ -115,7 +115,7 @@ Complexo_t Denominador(Complexo_t raizes[], int grau, int i){
     Complexo_t result;
 
     result.re = 1;
-    result.im = 0;
+    result.im = 1;
 
     int k = 0;
     
