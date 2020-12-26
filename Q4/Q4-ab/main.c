@@ -14,6 +14,6 @@ int main(){
         scanf("%lf %lf", &Coef[i]);
     }
 
-    Kremer(Coef, grau);
+    Kerner(Coef, grau);
     return 0;
 }
