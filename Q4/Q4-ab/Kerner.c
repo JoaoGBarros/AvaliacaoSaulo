@@ -62,7 +62,7 @@ complex Denominador(complex raizes[], int grau, int i){
 
 
 
-void Kremer(complex Coef[], int grau){
+void Kerner(complex Coef[], int grau){
     complex raizes[grau], resultado[grau];
     int i = 0;
     
