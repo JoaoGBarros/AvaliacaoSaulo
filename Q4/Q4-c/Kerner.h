@@ -1,5 +1,5 @@
-#ifndef KRAMER_H_
-#define KRAMER_H_
+#ifndef KERNER_H_
+#define KERNER_H_
 
 struct Complexo{
     double re;
@@ -7,7 +7,7 @@ struct Complexo{
 };
 typedef struct Complexo Complexo_t;
 
-void Kremer(Complexo_t Coef[], int grau);
+void Kerner(Complexo_t Coef[], int grau);
 Complexo_t ProdutoComplexos(Complexo_t p, Complexo_t q);
 Complexo_t Denominador(Complexo_t raizes[], int grau, int i);
 Complexo_t Power(int i);
