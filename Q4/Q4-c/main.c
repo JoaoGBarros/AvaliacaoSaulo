@@ -17,6 +17,6 @@ int main(){
 
 
     //
-    Kremer(Coef, grau);
+    Kerner(Coef, grau);
     return 0;
 }
