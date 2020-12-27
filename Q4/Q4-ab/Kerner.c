@@ -11,23 +11,13 @@ complex polinomio (complex Coef[], complex x, int grau){
     int j = grau - 1;
 
     for(i = (2*grau); j >= 0; i--){
-        if(grau % 2 != 0){
-            if(i % 2 != 0){
-                resultado = resultado + Coef[j];
-                j--;
-            }else{
-                resultado = resultado * x;
-            }
-        }else{
-            if(i % 2 == 0){
-                resultado = resultado * x;
-            }else{
-                resultado = resultado + Coef[j];
-                j--;
-            }  
-        }
-        
-    }
+         if(i % 2 != 0){
+              resultado = resultado + Coef[j];
+              j--;
+          }else{
+              resultado = resultado * x;
+          }
+   }
 
 
 
